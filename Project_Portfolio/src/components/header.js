@@ -1,11 +1,12 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import Headroom from "react-headroom"
 
 const Header = ({ siteTitle }) => (
-  <header
+  <Headroom
     style={{
-      background: `rebeccapurple`,
+      background: `#333f58`,
       marginBottom: `1.45rem`,
     }}
   >
@@ -28,7 +29,7 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
     </div>
-  </header>
+  </Headroom>
 )
 
 Header.propTypes = {
