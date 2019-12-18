@@ -2,6 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import Headroom from "react-headroom"
+import SocialIcons from "./socialIcons"
 
 const Header = ({ siteTitle }) => (
   <Headroom

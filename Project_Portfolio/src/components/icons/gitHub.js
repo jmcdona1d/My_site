@@ -4,7 +4,7 @@ import githubIcon from "@iconify/icons-simple-icons/github"
 
 const GitHub = () => (
   <a href="https://github.com/jmcdona1d">
-    <Icon icon={githubIcon} />
+    <Icon icon={githubIcon} width="26px" />
   </a>
 )
 

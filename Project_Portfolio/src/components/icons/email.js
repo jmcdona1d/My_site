@@ -4,7 +4,7 @@ import emailOutline from "@iconify/icons-mdi/email-outline"
 
 const Email = () => (
   <a href="mailto:james.mcdonald@queensu.ca">
-    <Icon icon={emailOutline} />
+    <Icon icon={emailOutline} width="28px" />
   </a>
 )
 
