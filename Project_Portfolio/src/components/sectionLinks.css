@@ -9,6 +9,7 @@
 
 .link:hover {
   background-color: #ce0606;
+  cursor: pointer;
 }
 
 .link:active {

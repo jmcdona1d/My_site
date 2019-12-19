@@ -11,7 +11,6 @@ const IndexPage = () => (
   <Layout>
     <a id="home_section">
       <p>Aspiring Software engineer</p>
-      <SectionLinks />
       <Headshot />
       <SocialIcons />
     </a>

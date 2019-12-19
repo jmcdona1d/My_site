@@ -1,0 +1,21 @@
+.icon {
+  color: black;
+  position: relative;
+  text-decoration: none;
+}
+
+.linkedinIcon {
+  color: #0e76a8;
+  position: relative;
+  text-decoration: none;
+}
+
+.icon:hover {
+  color: grey;
+  cursor: pointer;
+}
+
+.icon:active {
+  box-shadow: none;
+  top: 5px;
+}
