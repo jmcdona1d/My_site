@@ -5,12 +5,13 @@ import Email from "./icons/email"
 import styled from "styled-components"
 
 const List = styled.ul`
-  display:inline
+  display:inline-block
   background-color:#eeeeee
 `
 
 const ListEl = styled.li`
   display: inline;
+  margin-right: 10px;
 `
 
 const SocialIcons = () => (
