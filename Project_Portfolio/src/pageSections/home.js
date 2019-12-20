@@ -3,11 +3,11 @@ import SocialIcons from "../components/socialIcons"
 import Headshot from "../components/headshot"
 
 const About = () => (
-  <a id="home_section">
+  <div id="home_section">
     <p>Aspiring Software engineer</p>
     <Headshot />
     <SocialIcons />
-  </a>
+  </div>
 )
 
 export default About

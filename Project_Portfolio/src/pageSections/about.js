@@ -1,7 +1,7 @@
 import React from "react"
 
 const About = () => (
-  <a id="about_section">
+  <div id="about_section">
     <h2>About</h2>
     <p>
       I am a self-motivated computer engineering student who enjoys working in
@@ -11,7 +11,7 @@ const About = () => (
       year, I am seeking to join a new company for the summer of 2020 before I
       return to school and finish my degree.
     </p>
-  </a>
+  </div>
 )
 
 export default About
