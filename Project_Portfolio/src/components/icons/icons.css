@@ -10,6 +10,16 @@
   text-decoration: none;
 }
 
+.linkedinIcon:hover {
+  color: grey;
+  cursor: pointer;
+}
+
+.linkedinIcon:active {
+  box-shadow: none;
+  top: 5px;
+}
+
 .icon:hover {
   color: grey;
   cursor: pointer;
