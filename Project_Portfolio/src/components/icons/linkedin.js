@@ -6,6 +6,7 @@ const Linkedin = () => (
   <a
     className="linkedinIcon"
     href="https://www.linkedin.com/in/jamesgregorymcdonald/"
+    target="_blank"
   >
     <Icon icon={linkedinIcon} width="26px" />
   </a>
