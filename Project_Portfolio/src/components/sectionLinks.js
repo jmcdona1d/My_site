@@ -21,17 +21,17 @@ const Link = styled.a`
 const SectionLinks = () => (
   <List>
     <ListEl>
-      <a className="link" href="#about_section">
+      <a className="link" href="#about">
         About
       </a>
     </ListEl>
     <ListEl>
-      <a className="link" href="#projects_section">
+      <a className="link" href="#projects">
         Projects
       </a>
     </ListEl>
     <ListEl>
-      <a className="link" href="#contact_section">
+      <a className="link" href="#contact">
         Contact Info
       </a>
     </ListEl>

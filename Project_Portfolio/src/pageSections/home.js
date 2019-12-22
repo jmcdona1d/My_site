@@ -5,8 +5,11 @@ import Container from "reactstrap"
 import styled from "styled-components"
 
 const About = () => (
-  <div id="home_section">
-    <p>Aspiring Software engineer</p>
+  <div>
+    <p>
+      Fourth year Computer Engineering student at <em>Queen's University</em>{" "}
+      seeking an internship for summer 2020
+    </p>
     <Headshot />
     <SocialIcons />
   </div>
