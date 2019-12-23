@@ -1,12 +1,14 @@
 import React from "react"
 import ProjectDisplay from "../components/projectDisplay"
+import ProjectCarousel from "../components/ProjectCarousel"
+import WorkoutHelper from "../components/Projects/workoutHelper"
 
 const Projects = () => (
   <div id="projects">
     <h2>Project Portfolio</h2>
     <h4>Web App development</h4>
     {/* Cube solver, workout helper, portfolio, Open source */}
-    <ProjectDisplay />
+    <WorkoutHelper />
     <h4>Mobile and Desktop App development</h4>
     {/* ProForm, CodeCar, Shooting star */}
     <ProjectDisplay />
