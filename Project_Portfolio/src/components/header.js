@@ -6,15 +6,6 @@ import SocialIcons from "./socialIcons"
 import SectionLinks from "./sectionLinks"
 import styled from "styled-components"
 
-const List = styled.ul`
-align: right
-  display: inline-block;
-`
-
-const ListEl = styled.li`
-  display: inline;
-`
-
 const Header = ({ siteTitle }) => (
   <Headroom
     style={{
@@ -25,29 +16,10 @@ const Header = ({ siteTitle }) => (
     <div
       style={{
         margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-        justify: `ceneter`,
+        padding: `0.5rem 4rem`,
       }}
     >
-      <List>
-        <ListEl>
-          <h1 style={{ margin: 0, align: "left" }}>
-            <Link
-              to="/"
-              style={{
-                color: `white`,
-                textDecoration: `none`,
-              }}
-            >
-              {siteTitle}
-            </Link>
-          </h1>
-        </ListEl>
-        <ListEl style={{ align: "right" }}>
-          <SectionLinks />
-        </ListEl>
-      </List>
+      <SectionLinks style={{ margin: `1rem` }} />
     </div>
   </Headroom>
 )

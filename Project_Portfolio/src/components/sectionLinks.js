@@ -9,7 +9,7 @@ align: right
 
 const ListEl = styled.li`
   display: inline;
-  margin-right: 10px;
+  margin-right: 1.5rem;
 `
 
 const Link = styled.a`
@@ -20,6 +20,11 @@ const Link = styled.a`
 
 const SectionLinks = () => (
   <List>
+    <ListEl>
+      <a className="link" href="/">
+        Home
+      </a>
+    </ListEl>
     <ListEl>
       <a className="link" href="#about">
         About
