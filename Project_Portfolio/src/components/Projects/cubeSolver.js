@@ -8,7 +8,7 @@ import CardMedia from "@material-ui/core/CardMedia"
 import Button from "@material-ui/core/Button"
 import Typography from "@material-ui/core/Typography"
 import styled from "styled-components"
-import WorkoutPic from "./workoutHelperPic"
+import CubeSolverPic from "./cubeSolverPic"
 
 const useStyles = makeStyles({
   card: {
@@ -23,7 +23,6 @@ const ProjectDescription = styled.div`
   width: 60%
   margin-right:2%;
   float: left;
-
 `
 
 const ProjectDemo = styled.div`
@@ -38,7 +37,7 @@ const ClearFix = styled.div`
   clear: both;
 `
 
-export default function WorkoutHelper() {
+export default function CubeSolver() {
   const classes = useStyles()
 
   return (
@@ -47,29 +46,30 @@ export default function WorkoutHelper() {
         <CardActionArea>
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
-              Workout Helper
+              Cube Solver
             </Typography>
             <ProjectDescription>
               <Typography variant="body2" color="textSecondary" component="p">
                 <ul>
                   <li>
-                    Web application used to create a workout plan for the{" "}
-                    <em>5/3/1 Program</em>
+                    Web application that shows how to solve a given
+                    <em> Rubik's Cube</em>
                   </li>
                   <li>
-                    Built with <strong>React</strong> and
-                    <strong> Bootstrap</strong>{" "}
+                    Developed API backend using <strong>Java</strong> and{" "}
+                    <strong>Spring Boot</strong>
                   </li>
                   <li>
-                    Used <em>Github</em> to get help and feedback from open
-                    source community{" "}
+                    Developed interactive frontend using <strong>React</strong>{" "}
+                    and <strong>Bootstrap</strong>
                   </li>
                   <li>
-                    Currently working on adding a <strong>Node</strong> backend
-                    to have persistance
+                    Currently working on developing an interactive input for
+                    cube states
                   </li>
                   <li>
-                    My first web project - learned about styling and deployment
+                    Learned about <strong>REST API </strong>development and
+                    project management
                   </li>
                 </ul>
               </Typography>
@@ -77,7 +77,7 @@ export default function WorkoutHelper() {
             <Iframe />
             <ProjectDemo>
               <CardMedia>
-                <WorkoutPic />
+                <CubeSolverPic />
               </CardMedia>
             </ProjectDemo>
           </CardContent>
@@ -87,18 +87,10 @@ export default function WorkoutHelper() {
           <Button
             size="small"
             color="primary"
-            href="https://github.com/jmcdona1d/Workout_Helper"
+            href="https://github.com/jmcdona1d/cube_solver"
             target="__blank"
           >
             Source Code
-          </Button>
-          <Button
-            size="small"
-            color="primary"
-            href="https://workout-deploy.firebaseapp.com/"
-            target="__blank"
-          >
-            Site Demo
           </Button>
         </CardActions>
       </Card>
