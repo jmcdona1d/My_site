@@ -4,6 +4,10 @@ import ProjectCarousel from "../components/ProjectCarousel"
 import WorkoutHelper from "../components/Projects/workoutHelper"
 import CubeSolver from "../components/Projects/cubeSolver"
 import Portfolio from "../components/Projects/portfolio"
+import ShootingStar from "../components/Projects/shootingStar"
+import ProForm from "../components/Projects/proform"
+import CodeCar from "../components/Projects/codeCar"
+
 import styled from "styled-components"
 
 const ProjectList = styled.div`
@@ -24,13 +28,19 @@ const Projects = () => (
     <ProjectList>
       <Portfolio />
     </ProjectList>
-
     <h4>Mobile and Desktop App development</h4>
+    <ProjectList>
+      <ProForm />
+    </ProjectList>
+    <ProjectList>
+      <CodeCar />
+    </ProjectList>
+    <ProjectList>
+      <ShootingStar />
+    </ProjectList>
     {/* ProForm, CodeCar, Shooting star */}
-    <ProjectDisplay />
-    <h4>Academic Projects</h4>
+    {/* <h4>Academic Projects</h4>
     {/* Solitaire AutoStart, Recycle App? */}
-    <ProjectDisplay />
   </div>
 )
 

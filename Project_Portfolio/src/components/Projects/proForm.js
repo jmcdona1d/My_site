@@ -8,7 +8,7 @@ import CardMedia from "@material-ui/core/CardMedia"
 import Button from "@material-ui/core/Button"
 import Typography from "@material-ui/core/Typography"
 import styled from "styled-components"
-import WorkoutPic from "./workoutHelperPic"
+import ProFormPic from "./proFromPic"
 
 const useStyles = makeStyles({
   card: {
@@ -23,7 +23,6 @@ const ProjectDescription = styled.div`
   width: 60%
   margin-right:2%;
   float: left;
-
 `
 
 const ProjectDemo = styled.div`
@@ -38,7 +37,7 @@ const ClearFix = styled.div`
   clear: both;
 `
 
-export default function WorkoutHelper() {
+export default function ShootingStar() {
   const classes = useStyles()
 
   return (
@@ -47,30 +46,31 @@ export default function WorkoutHelper() {
         <CardActionArea>
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
-              Workout Helper
+              ProForm
             </Typography>
             <ProjectDescription>
               <Typography variant="body2" color="textSecondary" component="p">
                 <ul>
                   <li>
-                    Web application used to create a workout plan for the{" "}
-                    <em>5/3/1 Program</em>
+                    Mobile app that anlyzes squat form and provides helpful
+                    feedback
                   </li>
                   <li>
-                    Built with <strong>React</strong>,{" "}
-                    <strong>JavaScript</strong> and
-                    <strong> Bootstrap</strong>
+                    Developed using <strong>Flutter (Dart)</strong>,{" "}
+                    <strong>Firebase</strong>, <strong>TensorFlow</strong> and{" "}
+                    <strong>Figma</strong>
                   </li>
                   <li>
-                    Used <em>Github</em> to get help and feedback from open
-                    source community{" "}
+                    Worked on backend operations like account and database
+                    management
                   </li>
                   <li>
-                    Currently working on adding a <strong>Node</strong> backend
-                    to have persistance
+                    Created during <em>Hack The North 2019</em> as a part of a
+                    team
                   </li>
                   <li>
-                    My first web project - learned about styling and deployment
+                    Used <em>agile</em> concepts like standups and sprints to
+                    finish in 36 hours
                   </li>
                 </ul>
               </Typography>
@@ -78,7 +78,7 @@ export default function WorkoutHelper() {
             <Iframe />
             <ProjectDemo>
               <CardMedia>
-                <WorkoutPic />
+                <ProFormPic />
               </CardMedia>
             </ProjectDemo>
           </CardContent>
@@ -88,7 +88,7 @@ export default function WorkoutHelper() {
           <Button
             size="small"
             color="primary"
-            href="https://github.com/jmcdona1d/Workout_Helper"
+            href="https://github.com/eth212/htn2019"
             target="__blank"
           >
             Source Code
@@ -96,10 +96,10 @@ export default function WorkoutHelper() {
           <Button
             size="small"
             color="primary"
-            href="https://workout-deploy.firebaseapp.com/"
+            href="https://devpost.com/software/jumpy"
             target="__blank"
           >
-            Site Demo
+            DevPost Page
           </Button>
         </CardActions>
       </Card>

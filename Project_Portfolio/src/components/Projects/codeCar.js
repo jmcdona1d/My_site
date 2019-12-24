@@ -8,7 +8,7 @@ import CardMedia from "@material-ui/core/CardMedia"
 import Button from "@material-ui/core/Button"
 import Typography from "@material-ui/core/Typography"
 import styled from "styled-components"
-import WorkoutPic from "./workoutHelperPic"
+import CodeCarPic from "./codeCarPic"
 
 const useStyles = makeStyles({
   card: {
@@ -23,7 +23,6 @@ const ProjectDescription = styled.div`
   width: 60%
   margin-right:2%;
   float: left;
-
 `
 
 const ProjectDemo = styled.div`
@@ -38,7 +37,7 @@ const ClearFix = styled.div`
   clear: both;
 `
 
-export default function WorkoutHelper() {
+export default function CodeCar() {
   const classes = useStyles()
 
   return (
@@ -47,30 +46,28 @@ export default function WorkoutHelper() {
         <CardActionArea>
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
-              Workout Helper
+              Code[cAR]
             </Typography>
             <ProjectDescription>
               <Typography variant="body2" color="textSecondary" component="p">
                 <ul>
                   <li>
-                    Web application used to create a workout plan for the{" "}
-                    <em>5/3/1 Program</em>
+                    AR game designed to introduce kids to programming concepts
                   </li>
                   <li>
-                    Built with <strong>React</strong>,{" "}
-                    <strong>JavaScript</strong> and
-                    <strong> Bootstrap</strong>
+                    Created using <strong>Unity</strong>, <strong>C#</strong>{" "}
+                    and <strong>ARCore</strong>
                   </li>
                   <li>
-                    Used <em>Github</em> to get help and feedback from open
-                    source community{" "}
+                    Developed UI which converts inputs to excecutable commands
+                    for the car
                   </li>
                   <li>
-                    Currently working on adding a <strong>Node</strong> backend
-                    to have persistance
+                    Completed during <em>QHacks 2019</em> as part of a team
                   </li>
                   <li>
-                    My first web project - learned about styling and deployment
+                    Strengthened time management through rapid learning of new
+                    languages
                   </li>
                 </ul>
               </Typography>
@@ -78,7 +75,7 @@ export default function WorkoutHelper() {
             <Iframe />
             <ProjectDemo>
               <CardMedia>
-                <WorkoutPic />
+                <CodeCarPic />
               </CardMedia>
             </ProjectDemo>
           </CardContent>
@@ -88,7 +85,7 @@ export default function WorkoutHelper() {
           <Button
             size="small"
             color="primary"
-            href="https://github.com/jmcdona1d/Workout_Helper"
+            href="https://github.com/Michael-Dowling/Code_cAR"
             target="__blank"
           >
             Source Code
@@ -96,10 +93,10 @@ export default function WorkoutHelper() {
           <Button
             size="small"
             color="primary"
-            href="https://workout-deploy.firebaseapp.com/"
+            href="https://devpost.com/software/code-car-g3r6eq"
             target="__blank"
           >
-            Site Demo
+            Devpost Page
           </Button>
         </CardActions>
       </Card>
