@@ -3,7 +3,6 @@ import styled from "styled-components"
 import "./sectionLinks.css"
 
 const List = styled.ul`
-align: right
   display: inline-block;
 `
 
@@ -11,11 +10,8 @@ const ListEl = styled.li`
   display: inline;
   margin-right: 1.5rem;
 `
-
-const Link = styled.a`
-  color: red
-  text-decoration: none;
-  margin-right: 20px;
+const ListElFinal = styled.li`
+  display: inline;
 `
 
 const SectionLinks = () => (
@@ -35,11 +31,11 @@ const SectionLinks = () => (
         Projects
       </a>
     </ListEl>
-    <ListEl>
+    <ListElFinal>
       <a className="link" href="#contact">
         Contact Info
       </a>
-    </ListEl>
+    </ListElFinal>
   </List>
 )
 export default SectionLinks

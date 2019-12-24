@@ -16,7 +16,10 @@ const Header = ({ siteTitle }) => (
     <div
       style={{
         margin: `0 auto`,
-        padding: `0.5rem 4rem`,
+        width: `55%`,
+        paddingTop: `1rem`,
+        paddingBottom: `0.5rem`,
+        paddingLeft: `8%`,
       }}
     >
       <SectionLinks style={{ margin: `1rem` }} />

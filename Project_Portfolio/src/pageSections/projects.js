@@ -1,6 +1,5 @@
 import React from "react"
 import ProjectDisplay from "../components/projectDisplay"
-import ProjectCarousel from "../components/ProjectCarousel"
 import WorkoutHelper from "../components/Projects/workoutHelper"
 import CubeSolver from "../components/Projects/cubeSolver"
 import Portfolio from "../components/Projects/portfolio"
