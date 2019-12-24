@@ -8,6 +8,7 @@ import styled from "styled-components"
 const List = styled.ul`
   display:inline-block
   background-color:#eeeeee
+  margin-left:0px;
 `
 
 const ListEl = styled.li`
@@ -17,21 +18,15 @@ const ListEl = styled.li`
 
 const SocialIcons = () => (
   <div>
-    <Table>
-      <Row>
-        <List>
-          <ListEl>
-            <Linkedin />
-          </ListEl>
-          <ListEl>
-            <GitHub />
-          </ListEl>
-          <ListEl>
-            <Email />
-          </ListEl>
-        </List>
-      </Row>
-    </Table>
+    <ListEl>
+      <Linkedin />
+    </ListEl>
+    <ListEl>
+      <GitHub />
+    </ListEl>
+    <ListEl>
+      <Email />
+    </ListEl>
   </div>
 )
 

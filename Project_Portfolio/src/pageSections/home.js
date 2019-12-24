@@ -8,17 +8,18 @@ import "./pages.css"
 
 const Box = styled.div`
   padding-top: 80px;
+  width: 20rem;
 `
 const LeftSide = styled.div`
-  width: 10%
+  width: 40%
   margin-right:10%;
   float: left;
 `
 
 const RightSide = styled.div`
-  width: 80%;
+  width: 50%;
   float: left;
-  padding-left: 12rem;
+  padding-left: 25%;
   padding-top: 80px;
 `
 
@@ -29,6 +30,11 @@ const ClearFix = styled.div`
   clear: both;
 `
 
+const ListItem = styled.li`
+  list-style: none;
+  margin-left: 0;
+`
+
 const About = () => (
   <div className={{ paddingTop: 40 }}>
     {/* <p>
@@ -37,11 +43,19 @@ const About = () => (
     </p> */}
     <LeftSide>
       <Box>
-        <NameHomePic />
-        <SocialIcons />
-        <a className="resume" href={Resume} target="_blank">
-          Resume
-        </a>
+        <h1>James McDonald</h1>
+        <ul>
+          <ListItem>Fourth Year Computer Engineering</ListItem>
+          <ListItem>Seeking internship for Summer 2020</ListItem>
+          <ListItem>
+            <a className="resume" href={Resume} target="_blank">
+              Current Resume
+            </a>
+          </ListItem>
+          <ListItem>
+            <SocialIcons />
+          </ListItem>
+        </ul>
       </Box>
     </LeftSide>
     <Iframe />

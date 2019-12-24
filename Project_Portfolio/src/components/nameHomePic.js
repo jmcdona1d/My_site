@@ -7,7 +7,7 @@ const NameHomePic = () => {
     query {
       placeholderImage: file(relativePath: { eq: "NameFancy.png" }) {
         childImageSharp {
-          fluid(maxWidth: 400) {
+          fluid(maxWidth: 600) {
             ...GatsbyImageSharpFluid
           }
         }
@@ -18,7 +18,7 @@ const NameHomePic = () => {
   return (
     <div
       style={{
-        maxWidth: `300px`,
+        maxWidth: `500px`,
         marginBottom: `1.45rem`,
         marginLeft: `1.5rem`,
       }}
