@@ -4,7 +4,6 @@ import GitHub from "./icons/gitHub"
 import Email from "./icons/email"
 import { Table, Container, Row } from "reactstrap"
 import styled from "styled-components"
-import Resume from "../images/Resume_Dummy.pdf"
 
 const List = styled.ul`
   display:inline-block
@@ -19,11 +18,6 @@ const ListEl = styled.li`
 const SocialIcons = () => (
   <div>
     <Table>
-      <Row>
-        <a className="link" href={Resume} target="_blank">
-          Resume
-        </a>
-      </Row>
       <Row>
         <List>
           <ListEl>
