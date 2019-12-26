@@ -17,22 +17,22 @@ const ListElFinal = styled.li`
 const SectionLinks = () => (
   <List>
     <ListEl>
-      <a className="link" href="/">
+      <a className="button" href="/">
         Home
       </a>
     </ListEl>
     <ListEl>
-      <a className="link" href="#about">
+      <a className="button" href="#about">
         About
       </a>
     </ListEl>
     <ListEl>
-      <a className="link" href="#projects">
+      <a className="button" href="#projects">
         Projects
       </a>
     </ListEl>
     <ListElFinal>
-      <a className="link" href="#contact">
+      <a className="button" href="#contact">
         Contact Info
       </a>
     </ListElFinal>

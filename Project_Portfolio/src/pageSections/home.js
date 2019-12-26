@@ -7,7 +7,7 @@ import NameHomePic from "../components/nameHomePic"
 import "./pages.css"
 
 const Box = styled.div`
-  padding-top: 80px;
+  padding-top: 60px;
   width: 20rem;
 `
 const LeftSide = styled.div`
@@ -19,8 +19,8 @@ const LeftSide = styled.div`
 const RightSide = styled.div`
   width: 50%;
   float: left;
-  padding-left: 25%;
-  padding-top: 80px;
+  padding-left: 20%;
+  padding-top: 60px;
 `
 
 const Iframe = styled.div`
@@ -45,7 +45,7 @@ const About = () => (
       <Box>
         <h1>James McDonald</h1>
         <ul>
-          <ListItem>Fourth Year Computer Engineering</ListItem>
+          <ListItem>Fourth Year of Computer Engineering</ListItem>
           <ListItem>Seeking internship for Summer 2020</ListItem>
           <ListItem>
             <a className="resume" href={Resume} target="_blank">

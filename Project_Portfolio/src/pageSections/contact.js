@@ -9,7 +9,7 @@ const Contact = () => (
       please send me an email at{" "}
       <a href="sendto:james.mcdonald@queensu.ca">james.mcdonald@queensu.ca</a>{" "}
       or connect with me on{" "}
-      <a href="https://www.linkedin.com/in/jamesgregorymcdonald">Linkedin</a>
+      <a href="https://www.linkedin.com/in/jamesgregorymcdonald">Linkedin</a>.
     </p>
   </div>
 )

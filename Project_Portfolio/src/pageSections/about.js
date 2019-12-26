@@ -14,7 +14,10 @@ const About = () => (
     <p>
       I have designed this site to showcase the software development projects
       that I have worked on. If you would like to see what I am actively working
-      on, check out my <a href="https://github.com/jmcdona1d">GitHub profile</a>{" "}
+      on, check out my{" "}
+      <a href="https://github.com/jmcdona1d" target="__blank">
+        GitHub profile
+      </a>{" "}
       where I try my best to make at least one contribution a day!
     </p>
   </div>
