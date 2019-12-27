@@ -19,6 +19,10 @@ const useStyles = makeStyles({
   },
 })
 
+// const MainCard = styled.CardActionArea`
+//   background-color: #116466;
+// `
+
 const ProjectDescription = styled.div`
   width: 60%
   margin-right:2%;
@@ -43,7 +47,7 @@ export default function CubeSolver() {
   return (
     <div>
       <Card className={classes.card}>
-        <CardActionArea>
+        <CardActionArea style={{ backgroundColor: "#D1E8E2" }}>
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
               Cube Solver
@@ -82,8 +86,9 @@ export default function CubeSolver() {
             </ProjectDemo>
           </CardContent>
         </CardActionArea>
+
         <ClearFix />
-        <CardActions>
+        <CardActions style={{ backgroundColor: "#91cfbf" }}>
           <Button
             size="small"
             color="primary"

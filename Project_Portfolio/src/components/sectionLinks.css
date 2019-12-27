@@ -1,26 +1,7 @@
-.link {
-  background-color: red;
-  box-shadow: 0 5px 0 darkred;
-  color: white;
-  padding: 0.3em 0.2em;
-  position: relative;
-  text-decoration: none;
-}
-
-.link:hover {
-  background-color: #ce0606;
-  cursor: pointer;
-}
-
-.link:active {
-  box-shadow: none;
-  top: 5px;
-}
-
 .button {
-  color: #494949 !important;
+  color: #d1e8b2 !important;
   text-decoration: none;
-  background: #ffffff;
+  background: #116466;
   padding: 4px;
   border: 2px solid #494949 !important;
   display: inline-block;
@@ -28,8 +9,8 @@
 }
 
 .button:hover {
-  color: #ffffff !important;
-  background: #f6b93b;
-  border-color: #f6b93b !important;
+  color: #d1e8b2 !important;
+  background: #91cfbf;
+  border-color: #91cfbf !important;
   transition: all 0.4s ease 0s;
 }

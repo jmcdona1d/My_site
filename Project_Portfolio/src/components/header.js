@@ -9,7 +9,7 @@ import styled from "styled-components"
 const Header = ({ siteTitle }) => (
   <Headroom
     style={{
-      background: `#333f58`,
+      background: `#2C3531`,
       marginBottom: `1.45rem`,
     }}
   >
