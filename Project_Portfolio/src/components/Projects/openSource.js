@@ -42,7 +42,7 @@ export default function OpenSource() {
   return (
     <div>
       <Card className={classes.card}>
-        <CardActionArea>
+        <CardActionArea style={{ backgroundColor: "#D1E8E2" }}>
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
               Open Source Experience
@@ -89,7 +89,7 @@ export default function OpenSource() {
           </CardContent>
         </CardActionArea>
         <ClearFix />
-        <CardActions>
+        <CardActions style={{ backgroundColor: "#91cfbf" }}>
           <Button
             size="small"
             color="primary"

@@ -43,7 +43,7 @@ export default function CodeCar() {
   return (
     <div>
       <Card className={classes.card}>
-        <CardActionArea>
+        <CardActionArea style={{ backgroundColor: "#D1E8E2" }}>
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
               Code[cAR]
@@ -81,7 +81,7 @@ export default function CodeCar() {
           </CardContent>
         </CardActionArea>
         <ClearFix />
-        <CardActions>
+        <CardActions style={{ backgroundColor: "#91cfbf" }}>
           <Button
             size="small"
             color="primary"

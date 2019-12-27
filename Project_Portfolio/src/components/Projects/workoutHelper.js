@@ -44,7 +44,7 @@ export default function WorkoutHelper() {
   return (
     <div>
       <Card className={classes.card}>
-        <CardActionArea>
+        <CardActionArea style={{ backgroundColor: "#D1E8E2" }}>
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
               Workout Helper
@@ -84,7 +84,7 @@ export default function WorkoutHelper() {
           </CardContent>
         </CardActionArea>
         <ClearFix />
-        <CardActions>
+        <CardActions style={{ backgroundColor: "#91cfbf" }}>
           <Button
             size="small"
             color="primary"
