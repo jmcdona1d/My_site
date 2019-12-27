@@ -6,6 +6,7 @@ import Portfolio from "../components/Projects/portfolio"
 import ShootingStar from "../components/Projects/shootingStar"
 import ProForm from "../components/Projects/proform"
 import CodeCar from "../components/Projects/codeCar"
+import OpenSource from "../components/Projects/openSource"
 
 import styled from "styled-components"
 
@@ -23,6 +24,9 @@ const Projects = () => (
     </ProjectList>
     <ProjectList>
       <WorkoutHelper />
+    </ProjectList>
+    <ProjectList>
+      <OpenSource />
     </ProjectList>
     <ProjectList>
       <Portfolio />
