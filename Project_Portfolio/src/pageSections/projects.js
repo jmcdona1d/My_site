@@ -4,7 +4,7 @@ import WorkoutHelper from "../components/Projects/workoutHelper"
 import CubeSolver from "../components/Projects/cubeSolver"
 import Portfolio from "../components/Projects/portfolio"
 import ShootingStar from "../components/Projects/shootingStar"
-import ProForm from "../components/Projects/proform"
+import ProForm from "../components/Projects/proForm"
 import CodeCar from "../components/Projects/codeCar"
 import OpenSource from "../components/Projects/openSource"
 

@@ -1,5 +1,5 @@
 import React from "react"
-import Linkedin from "./icons/Linkedin"
+import Linkedin from "./icons/linkedin"
 import GitHub from "./icons/gitHub"
 import Email from "./icons/email"
 import { Table, Container, Row } from "reactstrap"
