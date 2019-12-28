@@ -37,10 +37,6 @@ const ListItem = styled.li`
 
 const About = () => (
   <div className={{ paddingTop: 40 }}>
-    {/* <p>
-      Fourth year Computer Engineering student at <em>Queen's University</em>{" "}
-      seeking an internship for summer 2020
-    </p> */}
     <LeftSide>
       <Box>
         <h1>James McDonald</h1>

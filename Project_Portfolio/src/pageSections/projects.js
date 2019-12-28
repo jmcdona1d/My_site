@@ -7,15 +7,18 @@ import ShootingStar from "../components/Projects/shootingStar"
 import ProForm from "../components/Projects/proForm"
 import CodeCar from "../components/Projects/codeCar"
 import OpenSource from "../components/Projects/openSource"
-
 import styled from "styled-components"
 
 const ProjectList = styled.div`
   margin: 20px 0px 50px 10px;
 `
+const ClearFix = styled.div`
+  clear: both;
+`
 
 const Projects = () => (
-  <div id="projects">
+  <div id="projects" style={{ width: "100%" }}>
+    <ClearFix />
     <h2>Project Portfolio</h2>
     <h4>Web App development</h4>
     {/* Cube solver, workout helper, portfolio, Open source */}

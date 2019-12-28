@@ -7,7 +7,6 @@ import About from "../pageSections/about"
 import Home from "../pageSections/home"
 import Project from "../pageSections/projects"
 import Contact from "../pageSections/contact"
-import Global from "../components/global"
 import styled from "styled-components"
 
 const Background = styled.div`
@@ -19,6 +18,7 @@ const IndexPage = () => (
     <Layout>
       <Home />
       <About />
+      <div />
       <Project />
       <Contact />
     </Layout>
