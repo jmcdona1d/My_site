@@ -2,7 +2,7 @@ import React from "react"
 import SocialIcons from "../components/socialIcons"
 import Headshot from "../components/headshot"
 import styled from "styled-components"
-import Resume from "../images/Resume_Dummy.pdf"
+import Resume from "../images/Resume_Portfolio.pdf"
 import NameHomePic from "../components/nameHomePic"
 import "./pages.css"
 
