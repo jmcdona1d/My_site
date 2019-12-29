@@ -7,6 +7,8 @@ import ShootingStar from "../components/Projects/shootingStar"
 import ProForm from "../components/Projects/proForm"
 import CodeCar from "../components/Projects/codeCar"
 import OpenSource from "../components/Projects/openSource"
+import Databases from "../components/Projects/databases"
+
 import styled from "styled-components"
 
 const ProjectList = styled.div`
@@ -46,7 +48,11 @@ const Projects = () => (
     </ProjectList>
     {/* ProForm, CodeCar, Shooting star */}
     {/* <h4>Academic Projects</h4>
-    {/* Solitaire AutoStart, Recycle App? */}
+    {/* Solitaire AutoStart, Recycle App?, Databases */}
+    <h4>Academic Projects</h4>
+    <ProjectList>
+      <Databases />
+    </ProjectList>
   </div>
 )
 
