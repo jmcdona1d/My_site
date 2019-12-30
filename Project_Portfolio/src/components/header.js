@@ -1,10 +1,7 @@
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import Headroom from "react-headroom"
-import SocialIcons from "./socialIcons"
 import SectionLinks from "./sectionLinks"
-import styled from "styled-components"
 
 const Header = ({ siteTitle }) => (
   <Headroom

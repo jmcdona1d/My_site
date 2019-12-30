@@ -3,7 +3,6 @@ import SocialIcons from "../components/socialIcons"
 import Headshot from "../components/headshot"
 import styled from "styled-components"
 import Resume from "../images/Resume_Portfolio.pdf"
-import NameHomePic from "../components/nameHomePic"
 import "./pages.css"
 
 const Box = styled.div`
@@ -44,7 +43,12 @@ const About = () => (
           <ListItem>Fourth Year of Computer Engineering</ListItem>
           <ListItem>Seeking internship for Summer 2020</ListItem>
           <ListItem>
-            <a className="resume" href={Resume} target="_blank">
+            <a
+              className="resume"
+              href={Resume}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Current Resume
             </a>
           </ListItem>

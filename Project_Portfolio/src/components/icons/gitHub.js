@@ -1,5 +1,5 @@
 import React from "react"
-import { Icon, InlineIcon } from "@iconify/react"
+import { Icon } from "@iconify/react"
 import githubIcon from "@iconify/icons-simple-icons/github"
 import "./icons.css"
 

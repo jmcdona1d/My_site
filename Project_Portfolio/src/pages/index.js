@@ -1,9 +1,7 @@
 import React from "react"
-import { Link } from "gatsby"
 import { Helmet } from "react-helmet"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import About from "../pageSections/about"
 import Home from "../pageSections/home"
 import Project from "../pageSections/projects"
