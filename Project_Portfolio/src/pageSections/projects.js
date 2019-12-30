@@ -8,6 +8,7 @@ import ProForm from "../components/Projects/proForm"
 import CodeCar from "../components/Projects/codeCar"
 import OpenSource from "../components/Projects/openSource"
 import Databases from "../components/Projects/databases"
+import Solitaire from "../components/projects/solitaire"
 
 import styled from "styled-components"
 
@@ -52,6 +53,9 @@ const Projects = () => (
     <h4>Academic Projects</h4>
     <ProjectList>
       <Databases />
+    </ProjectList>
+    <ProjectList>
+      <Solitaire />
     </ProjectList>
   </div>
 )

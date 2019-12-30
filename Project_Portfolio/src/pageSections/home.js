@@ -7,7 +7,7 @@ import NameHomePic from "../components/nameHomePic"
 import "./pages.css"
 
 const Box = styled.div`
-  padding-top: 60px;
+  padding-top: 40px;
   width: 20rem;
 `
 const LeftSide = styled.div`
@@ -20,7 +20,7 @@ const RightSide = styled.div`
   width: 50%;
   float: left;
   padding-left: 20%;
-  padding-top: 60px;
+  padding-top: 40px;
 `
 
 const Iframe = styled.div`

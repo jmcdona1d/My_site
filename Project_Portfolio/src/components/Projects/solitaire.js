@@ -37,7 +37,7 @@ const ClearFix = styled.div`
   clear: both;
 `
 
-export default function Databases() {
+export default function Solitaire() {
   const classes = useStyles()
 
   return (
@@ -46,42 +46,47 @@ export default function Databases() {
         <CardActionArea style={{ backgroundColor: "#D1E8E2" }}>
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
-              Conference Manager
+              Solitaire Autostart
             </Typography>
             <ProjectDescription>
               <Typography variant="body2" color="textSecondary" component="p">
                 <ul>
                   <li>
-                    Web application that can be used to manage a conference
+                    Algorithm written to return the number of moves that could
+                    be automatically made at the start of a <em>Solitaire</em>
                   </li>
                   <li>
-                    Created using <strong>SQL</strong>, <strong>PHP</strong>,{" "}
-                    <strong>HTML</strong> and <strong>CSS</strong>
+                    Created algorithm in <strong>Java</strong> - thoroughly
+                    refactored to acheive an linear average runtime
                   </li>
                   <li>
-                    Course project for{" "}
-                    <em>Introduction to Database Management Systems</em>
+                    Used <strong>MATLAB</strong> to anlyze data from thousands
+                    of test scenarios and draw conclusions about the outputs
                   </li>
                   <li>
-                    Implemented functionalities to manage sponsors and hotel
-                    rooms{" "}
+                    Course project for <em>Algorithms</em>
                   </li>
                   <li>
-                    Experienced maintaining a database and writing queries
+                    Learned about designing and optimizing a complex algorithm
                   </li>
                 </ul>
-                <p></p>
               </Typography>
             </ProjectDescription>
             <Iframe />
-            <ProjectDemo>
-              <CardMedia>
-                <DatabasesPic />
-              </CardMedia>
-            </ProjectDemo>
+            <ProjectDemo></ProjectDemo>
           </CardContent>
         </CardActionArea>
         <ClearFix />
+        <CardActions style={{ backgroundColor: "#91cfbf" }}>
+          <Button
+            size="small"
+            color="primary"
+            href="https://github.com/jmcdona1d/Solitaire_Autostart"
+            target="__blank"
+          >
+            Source Code
+          </Button>
+        </CardActions>
       </Card>
     </div>
   )
