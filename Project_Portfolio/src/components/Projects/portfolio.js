@@ -55,8 +55,8 @@ export default function Portfolio() {
                   </li>
                   <li>
                     Developed with <strong>React</strong>,{" "}
-                    <strong>Gatsby</strong>, <strong>Bootstrap</strong> and{" "}
-                    <strong>Material UI</strong>
+                    <strong>Gatsby</strong>, <strong>GraphQL</strong>,{" "}
+                    <strong>Bootstrap</strong> and <strong>Material UI</strong>
                   </li>
                   <li>
                     Learned a lot about <strong>CSS</strong> and how to layout

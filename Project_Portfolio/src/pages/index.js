@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import { Helmet } from "react-helmet"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
@@ -15,6 +16,11 @@ const Background = styled.div`
 
 const IndexPage = () => (
   <Background>
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>James McDonald | Portfolio</title>
+      <link rel="canonical" href="http://mysite.com/example" />
+    </Helmet>
     <Layout>
       <Home />
       <About />
