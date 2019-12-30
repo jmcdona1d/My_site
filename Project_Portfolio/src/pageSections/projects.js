@@ -8,7 +8,7 @@ import ProForm from "../components/Projects/proForm"
 import CodeCar from "../components/Projects/codeCar"
 import OpenSource from "../components/Projects/openSource"
 import Databases from "../components/Projects/databases"
-import Solitaire from "../components/projects/solitaire"
+import Solitaire from "../components/Projects/solitaire"
 
 import styled from "styled-components"
 
