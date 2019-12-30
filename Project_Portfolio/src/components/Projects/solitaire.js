@@ -70,6 +70,7 @@ export default function Solitaire() {
                     Learned about designing and optimizing a complex algorithm
                   </li>
                 </ul>
+                <p></p>
               </Typography>
             </ProjectDescription>
             <Iframe />

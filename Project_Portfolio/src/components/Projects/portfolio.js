@@ -63,6 +63,7 @@ export default function Portfolio() {
                     components on a page
                   </li>
                 </ul>
+                <p></p>
               </Typography>
             </ProjectDescription>
             <Iframe />

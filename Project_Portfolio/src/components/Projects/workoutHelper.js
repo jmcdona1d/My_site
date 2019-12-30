@@ -73,6 +73,7 @@ export default function WorkoutHelper() {
                     My first web project - learned about styling and deployment
                   </li>
                 </ul>
+                <p></p>
               </Typography>
             </ProjectDescription>
             <Iframe />

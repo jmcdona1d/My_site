@@ -76,6 +76,7 @@ export default function CubeSolver() {
                     project management
                   </li>
                 </ul>
+                <p></p>
               </Typography>
             </ProjectDescription>
             <Iframe />

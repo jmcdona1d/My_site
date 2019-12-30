@@ -83,6 +83,7 @@ export default function OpenSource() {
                     <em>Workout Helper</em>
                   </li>
                 </ul>
+                <p></p>
               </Typography>
             </ProjectDescription>
             <Iframe />
