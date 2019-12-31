@@ -17,7 +17,6 @@ const IndexPage = () => (
     <Helmet>
       <meta charSet="utf-8" />
       <title>James McDonald | Portfolio</title>
-      <link rel="canonical" href="http://mysite.com/example" />
     </Helmet>
     <Layout>
       <Home />
