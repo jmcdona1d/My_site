@@ -65,7 +65,7 @@ export default function ShootingStar() {
                   <li>Implemented time and scoring features for the game</li>
                   <li>
                     Learned about the
-                    <em> Software Development Lifecycle</em>
+                    <em> Software Development Life-Cycle</em>
                   </li>
                 </ul>
               </Typography>

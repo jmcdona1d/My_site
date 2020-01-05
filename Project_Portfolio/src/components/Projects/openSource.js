@@ -70,7 +70,7 @@ export default function OpenSource() {
                     >
                       JavaScript library
                     </a>{" "}
-                    that emulates <em>C</em>-style pointers
+                    that emulates <em>C-style Pointers</em>
                   </li>
                   <li>
                     Opened an issue for participants in my own repository{" "}

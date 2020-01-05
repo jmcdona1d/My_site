@@ -56,12 +56,12 @@ export default function CubeSolver() {
               <Typography variant="body2" color="textSecondary" component="p">
                 <ul>
                   <li>
-                    Web application that shows how to solve a given
+                    Web application that shows how to solve any
                     <em> Rubik's Cube</em>
                   </li>
                   <li>
-                    Developed API backend using <strong>Java</strong> and{" "}
-                    <strong>Spring Boot</strong>
+                    Developed <strong>API</strong> backend using{" "}
+                    <strong>Java</strong> and <strong>Spring Boot</strong>
                   </li>
                   <li>
                     Developed interactive frontend using <strong>React</strong>{" "}

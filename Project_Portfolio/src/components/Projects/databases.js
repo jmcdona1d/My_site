@@ -65,7 +65,8 @@ export default function Databases() {
                     rooms{" "}
                   </li>
                   <li>
-                    Experienced maintaining a database and writing queries
+                    Experienced maintaining a database and writing dynamic
+                    queries
                   </li>
                 </ul>
                 <p></p>

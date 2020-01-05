@@ -19,7 +19,7 @@ const RightSide = styled.div`
   width: 50%;
   float: left;
   padding-left: 20%;
-  padding-top: 40px;
+  padding-top: 55px;
 `
 
 const Iframe = styled.div`
@@ -41,6 +41,10 @@ const About = () => (
         <h1>James McDonald</h1>
         <ul>
           <ListItem>Fourth Year of Computer Engineering</ListItem>
+          <ListItem>
+            <em>Queen's University</em>
+          </ListItem>
+
           <ListItem>Seeking internship for Summer 2020</ListItem>
           <ListItem>
             <a
