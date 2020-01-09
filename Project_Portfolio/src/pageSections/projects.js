@@ -22,7 +22,7 @@ const Projects = () => (
   <div id="projects" style={{ width: "100%" }}>
     <ClearFix />
     <h2>Project Portfolio</h2>
-    <h4>Web App development</h4>
+    <h4>Web App Development</h4>
     {/* Cube solver, workout helper, portfolio, Open source */}
     <ProjectList>
       <CubeSolver />
@@ -36,7 +36,7 @@ const Projects = () => (
     <ProjectList>
       <Portfolio />
     </ProjectList>
-    <h4>Mobile and Desktop App development</h4>
+    <h4>Mobile and Desktop App Development</h4>
     <ProjectList>
       <ProForm />
     </ProjectList>

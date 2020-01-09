@@ -45,7 +45,7 @@ const About = () => (
             <em>Queen's University</em>
           </ListItem>
 
-          <ListItem>Seeking internship for Summer 2020</ListItem>
+          <ListItem>Seeking Internship for Summer 2020</ListItem>
           <ListItem>
             <a
               className="resume"
