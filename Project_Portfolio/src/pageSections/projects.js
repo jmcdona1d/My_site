@@ -8,6 +8,7 @@ import CodeCar from "../components/Projects/codeCar"
 import OpenSource from "../components/Projects/openSource"
 import Databases from "../components/Projects/databases"
 import Solitaire from "../components/Projects/solitaire"
+import FiscalFresh from "../components/Projects/fiscalFresh"
 
 import styled from "styled-components"
 
@@ -26,6 +27,9 @@ const Projects = () => (
     {/* Cube solver, workout helper, portfolio, Open source */}
     <ProjectList>
       <CubeSolver />
+    </ProjectList>
+    <ProjectList>
+      <FiscalFresh />
     </ProjectList>
     <ProjectList>
       <WorkoutHelper />
