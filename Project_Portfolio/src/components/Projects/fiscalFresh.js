@@ -92,7 +92,7 @@ export default function FiscalFresh() {
           <Button
             size="small"
             color="primary"
-            href="https://github.com/jmcdona1d/cube_solver"
+            href="https://github.com/Michael-Dowling/meal_planner"
             target="__blank"
           >
             Source Code
