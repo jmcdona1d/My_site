@@ -97,6 +97,14 @@ export default function FiscalFresh() {
           >
             Source Code
           </Button>
+          <Button
+            size="small"
+            color="primary"
+            href="http://fiscalfresh.herokuapp.com/"
+            target="__blank"
+          >
+            Site Demo
+          </Button>
         </CardActions>
       </Card>
     </div>

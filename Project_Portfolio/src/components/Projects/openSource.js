@@ -45,8 +45,14 @@ export default function OpenSource() {
               <Typography variant="body2" color="textSecondary" component="p">
                 <ul>
                   <li>
-                    Started contributing to <em>open source</em> repositories to
-                    complete the <em>Hacktoberfest 2019</em> challenge
+                    Started contributing to <em>open source</em> repositories as
+                    part of the{" "}
+                    <a
+                      href="https://hacktoberfest.digitalocean.com/"
+                      target="blank__"
+                    >
+                      <em>2019 Hacktoberfest Challenge</em>
+                    </a>
                   </li>
                   <li>
                     Used <strong>React</strong>, <strong>JavaScript</strong> and{" "}
@@ -76,6 +82,12 @@ export default function OpenSource() {
                     Opened an issue for participants in my own repository{" "}
                     <em>Workout Helper</em>
                   </li>
+                  <li>
+                    Added a new page for a global sustainability awareness{" "}
+                    <a href="https://protect.earth/" target="blank__">
+                      website
+                    </a>
+                  </li>
                 </ul>
                 <p></p>
               </Typography>
@@ -84,16 +96,6 @@ export default function OpenSource() {
           </CardContent>
         </CardActionArea>
         <ClearFix />
-        <CardActions style={{ backgroundColor: "#91cfbf" }}>
-          <Button
-            size="small"
-            color="primary"
-            href="https://hacktoberfest.digitalocean.com/"
-            target="__blank"
-          >
-            Challenge Website
-          </Button>
-        </CardActions>
       </Card>
     </div>
   )
