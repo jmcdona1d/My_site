@@ -9,7 +9,7 @@ import OpenSource from "../components/Projects/openSource"
 import Databases from "../components/Projects/databases"
 import Solitaire from "../components/Projects/solitaire"
 import FiscalFresh from "../components/Projects/fiscalFresh"
-import Robto from "../components/Projects/robot"
+import Robot from "../components/Projects/robot"
 
 import styled from "styled-components"
 

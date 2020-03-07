@@ -50,9 +50,9 @@ export default function Robot() {
               <Typography variant="body2" color="textSecondary" component="p">
                 <ul>
                   <li>
-                    group project where we programmed a robot to retrieve balls
+                    Programmed a robot to retrieve balls
                     and sort them into various pipes based on a received{" "}
-                    <em>IR</em>
+                    <em>IR </em>
                     signal
                   </li>
                   <li>
