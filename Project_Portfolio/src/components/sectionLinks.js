@@ -17,7 +17,7 @@ const ListElFinal = styled.li`
 const SectionLinks = () => (
   <List>
     <ListEl>
-      <a className="button" href="/">
+      <a className="button" href="#home">
         Home
       </a>
     </ListEl>

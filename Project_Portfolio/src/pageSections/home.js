@@ -35,7 +35,7 @@ const ListItem = styled.li`
 `
 
 const About = () => (
-  <div className={{ paddingTop: 40 }}>
+  <div id="home" className={{ paddingTop: 40 }}>
     <LeftSide>
       <Box>
         <h1>James McDonald</h1>
@@ -66,7 +66,6 @@ const About = () => (
     <RightSide>
       <Headshot />
     </RightSide>
-    <ClearFix />
   </div>
 )
 
