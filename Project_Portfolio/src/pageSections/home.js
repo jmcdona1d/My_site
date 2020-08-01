@@ -2,7 +2,7 @@ import React from "react"
 import SocialIcons from "../components/socialIcons"
 import Headshot from "../components/headshot"
 import styled from "styled-components"
-import Resume from "../images/Resume_Portfolio.pdf"
+// import Resume from "../images/Resume_Portfolio.pdf"
 import "./pages.css"
 
 const Box = styled.div`
@@ -40,21 +40,21 @@ const About = () => (
       <Box>
         <h1>James McDonald</h1>
         <ul>
-          <ListItem>Fourth Year of Computer Engineering</ListItem>
+          <ListItem>Computer Engineer Graduating May 2021</ListItem>
           <ListItem>
             <em>Queen's University</em>
           </ListItem>
 
           <ListItem>Passionate Software Developer</ListItem>
           <ListItem>
-            <a
+            {/* <a
               className="resume"
               href={Resume}
               target="_blank"
               rel="noopener noreferrer"
             >
               Current Resume
-            </a>
+            </a> */}
           </ListItem>
           <ListItem>
             <SocialIcons />

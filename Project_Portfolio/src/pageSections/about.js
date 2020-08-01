@@ -21,7 +21,7 @@ const About = () => (
         I would like to use my software development expertise to contribute to a
         project that will significantly impact and improve the lives of Canadians.
         Please don't hesitate to reach out if you would like to discuss potential
-        internship or project opportunities.
+        full-time or project opportunities.
       </p>
 
       <p>
