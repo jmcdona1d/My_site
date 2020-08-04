@@ -10,6 +10,7 @@ import Databases from "../components/Projects/databases"
 import Solitaire from "../components/Projects/solitaire"
 import FiscalFresh from "../components/Projects/fiscalFresh"
 import Robot from "../components/Projects/robot"
+import Chatterbox from "../components/Projects/chatterbox"
 
 import styled from "styled-components"
 
@@ -31,6 +32,9 @@ const Projects = () => (
     </ProjectList>
     <ProjectList>
       <FiscalFresh />
+    </ProjectList>
+    <ProjectList>
+      <Chatterbox />
     </ProjectList>
     <ProjectList>
       <WorkoutHelper />
